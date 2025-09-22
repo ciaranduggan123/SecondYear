@@ -1,0 +1,35 @@
+!new Member('Ciaran')
+!Ciaran.name := 'Ciaran'
+!Ciaran.no_onloan := 0
+!Ciaran.address := '172 Grangegorman'
+!Ciaran.fine := 5
+
+!new Book('Harry_Potter')
+!Harry_Potter.title := 'Harry_Potter'
+!Harry_Potter.author := 'JK Rowling'
+!Harry_Potter.no_copies := 2
+!Harry_Potter.no_onshelf := 2
+
+!new Copy('c1')
+!c1.status := #onShelf
+!insert(c1, Harry_Potter) into CopyOf
+
+!new Copy('c2')
+!c2.status := #onShelf
+!insert (c2,Harry_Potter) into CopyOf
+
+!new Member('John')
+!John.name := 'John'
+!John.no_onloan := 0
+!John.address := '54 Smithfield Lane'
+!John.fine := 3
+
+!new Copy('c3')
+!c3.status := #onShelf
+!insert(c3,Harry_Potter) into CopyOf
+
+!new Book('Lord_Of_The_Rings')
+!Lord_Of_The_Rings.title := 'Lord_Of_The_Rings'
+!Lord_Of_The_Rings.author := 'John Ronald Reuel Tolkien'
+
+
